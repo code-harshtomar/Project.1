@@ -1,0 +1,298 @@
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.strap{
+  height: 42px;
+    background-color:  #1A1A1A;
+}
+
+.aa{
+    height:661px ;
+   background: no-repeat;
+   background-color: #161615;
+    background-image: url(./Images/Group\ 15.png);
+    background-position: center center;
+      background-size: auto;
+    
+}
+
+.cc{
+    background-image: url(./Images/18591063\ \(1\).png);
+    height: 520px;
+   
+}
+.bb{
+  height: 745px;
+}
+
+nav{
+  background:  #161615;
+  padding: 0px 0px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li{
+  padding: 15px 0;
+  cursor: pointer;
+}
+nav ul li.items{
+  position: relative;
+  width: auto;
+  margin: 0 16px;
+  text-align: center;
+  order: 3;
+}
+nav ul li.items:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 5px;
+  height: 2px;
+  width: 100%;
+  background:white;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+nav ul li.items:hover:after{
+  opacity: 1;
+  bottom: 8px;
+}
+nav ul li.logo{
+  flex: 1;
+  color: white;
+  font-size: 40px;
+  cursor: default;
+  user-select: none;
+
+  width: 176px;
+  height: 60px;
+  top: 41px;
+  left: 90px;
+  border: 1px;
+  size: 40px;
+  line-height: 60px;
+  font-weight: 275;
+  font-family: serif;
+}
+.log{
+    font-size: 40px; 
+  width: 176px;
+  height: 60px;
+  top: 41px;
+  left: 90px;
+  border: 1px;
+  size: 40px;
+  line-height: 60px;
+  font-weight: 275;
+  font-family: serif;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  transition: .4s;
+width: 70px ;
+height: 28px;
+top: 115px;
+left: 314px;
+border: 1px;
+font-weight: 600;
+size: 18px;
+
+
+}
+nav ul li:hover a{
+  color: white;
+}
+nav ul li i{
+  font-size: 23px;
+}
+nav ul li.btn{
+  display: none;
+}
+nav ul li.btn.hide i:before{
+  content: '\f00d';
+}
+@media all and (max-width: 900px){
+  nav{
+    padding: 5px 30px;
+  }
+  nav ul li.items{
+    width: 100%;
+    display: none;
+  }
+  nav ul li.items.show{
+    display: block;
+  }
+  nav ul li.btn{
+    display: block;
+  }
+  nav ul li.items:hover{
+    border-radius: 1px;
+    box-shadow: inset 0 0 1px white,
+                inset 0 0 1px white;
+               
+  }
+  nav ul li.items:hover:after{
+    opacity: 0;
+  }
+}
+
+.im2{
+    width: -webkit-fill-available;  
+}
+
+.im2{
+    position: absolute;
+    height: 371px;
+    width: 367px;
+    left: 1010px;
+    top: 129px;
+
+}
+.im3{
+    position: absolute;
+    top: 133px;
+    height: 654px;
+    left: 899px;
+
+}
+.im4{
+    position: relative;
+    top: 300px;
+    left: -548px;
+    width: 993px;
+    height: 354px;
+    background-color: #F07E15;
+    opacity: 60%;
+}
+.ima{
+   
+    position: absolute;
+    top: 280px;
+    left: 115px;
+    border: 1px;
+    width: 689px !important;
+}
+.imb{
+
+    position: absolute;
+    top: 396px;
+    left: 424px;
+    border: 1px;
+    width: 710px !important;
+}
+.imc{
+  
+    position: absolute;
+    top: 505px;
+    left: 187px;
+    border: 1px;
+    width: 527px !important;
+
+}
+.imd{
+  position: absolute;
+  left: 103px;
+  line-height: 31.2px;
+  top: 1633px;
+  
+}
+.ime{
+  position: absolute;
+  left: 103px;
+  line-height: 21.11px;
+  top: 1661px;
+}
+.imf{
+  position: absolute;
+  left: 10px;
+  top: 1846px;
+  width: 0%;
+}
+.img{
+  position: absolute;
+  top: 860px;
+  left: 83px;
+  width: 689px !important;
+}
+.imh{
+  position: absolute;
+  top: 954px;
+  left: 67px;
+  width: 648px !important;
+}
+.par1{
+  position: absolute;
+    top: 999px;
+    left: 91px;
+    font-weight: 400;
+    line-height: 21.11px;
+    font-size: 18px;
+}
+.par2{
+  position: absolute;
+  top: 1043px;
+  left: 91px;
+  font-weight: 600;
+  line-height: 31.2px;
+  font-size: 26px;
+}
+.par3{
+  position: absolute;
+  top: 1094px;
+  left: 91px;
+  font-weight: 400;
+  line-height: 21.11px;
+  font-size: 18px;
+}
+.par4{
+  position: absolute;
+  top: 1138px;
+  left: 91px;
+  font-weight: 400;
+  line-height: 21.11px;
+  font-size: 18px;
+}
+.card{
+  border: 0px solid rgba(0,0,0,.125) !important;
+  width: 310px; position: relative; height: 450px;
+  top: 182px;
+}
+.card-title{
+  color: #000000;
+}
+.card-text{
+  font-weight: 400; color:  #16161580 ;
+}
+
+.diva{
+  position: absolute;
+  right: 26rem;
+  top: 102rem;
+}
+.nine{
+  color: black;
+  display: flex;  
+  padding-right: 0;
+  padding-left: 0;
+}
+.second{
+  left: 1.5rem;
+}
+.third{
+  left: 3rem;
+}
+.cthree{
+  color: black;
+}
+
+
+
+
+
